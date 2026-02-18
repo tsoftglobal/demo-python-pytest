@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  python-tests:
+    build: .
+    container_name: demo-python-pytest-tests
+    volumes:
+      - .:/app
+    command: pytest
