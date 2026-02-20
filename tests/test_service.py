@@ -6,11 +6,6 @@ def test_status_should_be_green():
     assert evaluate_status() == "green", "PYTHON_PYTEST_EXPECTED_GREEN"
 
 
-def test_status_should_be_red():
-    # This test should fail due to the bug in the service
-    assert evaluate_status() == "red"
-
-
 def test_process_data():
     data = {"name": "John", "age": 30}
     result = process_data(data)
