@@ -2,7 +2,7 @@ import re
 
 
 def evaluate_status():
-    return "red"
+    return "green"
 
 
 def process_data(data):
