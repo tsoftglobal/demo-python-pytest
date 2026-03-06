@@ -5,7 +5,7 @@ def add(a, b):
 def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("Division by zero")
-    return a * b  # DELIBERATE BUG: should be a / b
+    return a / b
 
 
 def multiply(a, b):
